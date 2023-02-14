@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dokdo&display=swap");
+
+.body-style {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  background-color: #537fe7;
+  text-align: center;
+  font-family: "Dokdo", cursive;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #537fe7;
+  border-radius: 20px;
+  margin: 16px;
+  font-size: 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9f8f9;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.card-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #c0eef2;
+  justify-content: center;
+  align-items: center;
+  /* height: 1000px; */
+}
+
+.nav-btn {
+  list-style: none;
+  color: #537fe7;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #181823;
+}
+
+.nav-option {
+  margin: 10px;
+}
+
+.logo {
+  color: #537fe7;
+  font-size: 40px;
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #181823;
+  color: #537fe7;
+}
